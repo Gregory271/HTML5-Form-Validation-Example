@@ -1,4 +1,9 @@
+/*Seen below are the "styles" that define the sites visual elements. 
+mostly, the code below provides color, structure, spacing and layout to our html elements.
+the most advanced "feature" i added is the hover effects for the reset and submit buttons seen at the bottom. */
+
 body{
+    margin:0;/*eliminates margin that is automatically added to the body*/
     background-color:#191414;
     color:white;
   }
@@ -15,11 +20,11 @@ body{
     background-color:#222222;
   }
   
-  #username,#password{
+  #username,#password{ /*rounds the corners of text input boxes*/
     border-radius:50px;
   }
   
-  label,input{
+  label,input{ /*adds margin spacing between objects*/
     margin-bottom:1em;
     margin-top:0.5em;
   }
@@ -39,7 +44,7 @@ body{
     width:45%;
   }
   
-  #title-text{
+  #title-text{ /*text heading styles*/
     text-align:center;
     margin:1em;
     padding:1em;
@@ -47,12 +52,8 @@ body{
     border-radius:1em;
     border:1px solid #1db954;
   }
-  #canvas{
-    position:absolute;
-    top:0;
-    left:0;
-  }
-#reset:hover{
+
+#reset:hover{ /*mouse hover effect that causes button color to change on "mouseover"*/
     background-color:#c3487f;
 }
   #submit:hover{
