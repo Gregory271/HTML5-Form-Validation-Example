@@ -1,0 +1,63 @@
+body{
+    background-color:#191414;
+    color:white;
+  }
+  
+  form{
+    border:1px solid #1db954;
+    width:20vw;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    align-content:center;
+    border-radius:15px;
+    font-size:16px;
+    background-color:#222222;
+  }
+  
+  #username,#password{
+    border-radius:50px;
+  }
+  
+  label,input{
+    margin-bottom:1em;
+    margin-top:0.5em;
+  }
+  
+  .button{
+    width:4em;
+    border-radius:50px;
+  }
+  
+  .flexbox{
+    width:100%;
+    display:flex;
+    justify-content:center;
+  }
+  
+  .flexbox .flex-item{
+    width:45%;
+  }
+  
+  #title-text{
+    text-align:center;
+    margin:1em;
+    padding:1em;
+    background-color:#222222;
+    border-radius:1em;
+    border:1px solid #1db954;
+  }
+  #canvas{
+    position:absolute;
+    top:0;
+    left:0;
+  }
+#reset:hover{
+    background-color:#c3487f;
+}
+  #submit:hover{
+    background-color:#77DD77;
+  }
+  #submit{
+    background-color:#cccccc;
+  }
