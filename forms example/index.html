@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css"><!--css link goes inside quotes-->
 </head>
 <body>
     
     <h2 id="title-text">Welcome! Please fill out the information below, then click submit.</h2>
 
-    <form action="index.php" method="POST" enctype="multipart/form-data">
+    <form id="sign-in">
     
             <label for="username">Username:</label>
-            <input type="text" id="username" placeholder="enter username" minlength="6"  maxlength="15" required><br><br>
+            <input type="text" id="username" placeholder="enter username" minlength="6"  maxlength="20" required><br><br>
     
             <label for="password">Password:</label>
             <input type="password" id="password" placeholder="enter a password"><br>
@@ -21,13 +21,13 @@
             
       <div class="flexbox">
             
-            <input id="reset"class="button flex-item" type="reset"><br>
+            <!--<input id="reset"class="button flex-item" type="reset"><br>-->
             
-            <input id="submit" class="button flex-item" type="submit"><!--event handler will be triggered when this is clicked-->>
+            <button id="submit" class="button flex-item" type="button">Submit</button><!--event handler will be triggered when this is clicked-->
       </div>
         </form>
     
-<script src="./script.js"></script>
+<script src="./script.js"></script><!--js link goes inside quotes-->
 </body>
 </html>
 
